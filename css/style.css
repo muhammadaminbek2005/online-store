@@ -110,3 +110,123 @@
    font-weight: 300;
    font-style: normal;
 }
+
+html,
+body {
+   font-family: 'DIN Pro';
+   font-style: normal;
+}
+
+.contanier {
+   max-width: 1170px;
+   padding: 0 0.75rem;
+   margin: 0 auto;
+}
+
+.header {
+   position: fixed;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+}
+
+.menu {
+   background: #F2F2F2;
+   display: flex;
+   align-items: center;
+   height: 94.5px;
+}
+
+.menu__navigatin {
+   font-weight: 500;
+   border: 0.5px solid #A4ACAD;
+}
+
+.menu__navigatin_center {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   height: 100%;
+   width: 20%;
+   padding: 0 1rem;
+}
+
+.menu__header {
+   font-size: 18px;
+   line-height: 22px;
+   color: #111111;
+}
+
+.menu__link {
+   font-size: 18px;
+   line-height: 100%;
+   color: #FF9846;
+   text-decoration: none;
+}
+
+.menu__time {
+   font-size: 14px;
+   line-height: 17px;
+   color: #A4ACAD;
+}
+
+.menu__box {
+   border: 0.5px solid #A4ACAD;
+   height: 100%;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0 1rem;
+}
+
+.search-nav {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+}
+
+.search-nav__location {
+   font-weight: 300;
+   font-size: 14px;
+   line-height: 17px;
+   color: #A4ACAD;
+}
+
+.search-nav__town {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #000000;
+}
+
+.menu__payment {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.menu__item {
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   color: #111111;
+   text-decoration: none;
+   transition: 0.5s;
+   padding: 0 10px;
+}
+
+.menu__item:hover {
+   color: #FF9846;
+   transition: 0.5s;
+}
+
+.search {
+   color: #FF9846;
+   padding: 0.5rem;
+   cursor: pointer;
+   font-size: 1.5rem;
+}
