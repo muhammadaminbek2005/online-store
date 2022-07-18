@@ -8,38 +8,95 @@
    <title>Document</title>
    <!-- css -->
    <link rel="stylesheet" href="./css/reset.css">
-   <link rel="stylesheet" href="./css/style.css">
+   <link rel="stylesheet" href="./css/owl.carousel.min.css">
+   <link rel="stylesheet" href="./css/owl.theme.default.min.css">
    <link rel="stylesheet" href="./css/icons.css">
+   <link rel="stylesheet" href="./css/style.css">
+   <!-- js -->
+   <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   <script defer src="./js/owl.carousel.min.js" ></script>
+   <script defer src="./js/app.js" ></script>
 </head>
 
 <body>
-   <header class="header contanier">
-      <menu class="menu">
-         <nav class="menu__navigatin menu__navigatin_center">
-            <h6 class="menu__header">Наш телефон</h6>
-            <a class="menu__link" href="tel:+996 705 188 955">+996 705 188 955</a>
-            <a class="menu__link" href="tel:+996 555 188 955">+996 555 188 955</a>
-            <p class="menu__time icon-timer">
-               работаем с 10:00 до 00:00
-            </p>
-         </nav>
-         <div class="menu__box">
-            <div class="search-nav">
-               <p class="search-nav__location">Город:</p>
-               <p class="search-nav__town">Бишкек</p>
-            </div>
-            <div class="menu__payment">
-               <a href="#" class="menu__item">Отзывы</a>
-               <a href="#" class="menu__item">Доставка и оплата</a>
-               <div class="search icon-search">
+   <div class="wrapper">
+      <header class="header contanier">
+         <menu class="menu">
+            <nav class="menu__navigatin menu__navigatin_center">
+               <h6 class="menu__header">Наш телефон</h6>
+               <a class="menu__link" href="tel:+996 705 188 955">+996 705 188 955</a>
+               <a class="menu__link" href="tel:+996 555 188 955">+996 555 188 955</a>
+               <p class="menu__time icon-timer">
+                  работаем с 10:00 до 00:00
+               </p>
+            </nav>
+            <div class="menu__box">
+               <div class="search-nav">
+                  <p class="search-nav__location">Город:</p>
+                  <p class="search-nav__town">Бишкек</p>
+               </div>
+               <div class="menu__payment">
+                  <a href="#" class="menu__item">Отзывы</a>
+                  <a href="#" class="menu__item">Доставка и оплата</a>
+                  <div class="search icon-search">
+                  </div>
                </div>
             </div>
-         </div>
-      </menu>
-   </header>
-   <main class="main">
-      
-   </main>
+         </menu>
+      </header>
+      <main class="main main-contanier ">
+         <section class="offers">
+            <div class="offers__carusel owl-carousel owl-theme" id="offers__carusel">
+               <div class="offers__item">
+                  <a href="#" class="offers__link">
+                     <div class="offers__img">
+                        <img src="./imgs/offers desktop.png" alt="offers">
+                     </div>
+                  </a>
+                  <!-- <div class="offers__textbox">
+                     <div class="offers__text">
+                        <h1 class="offers__header">Филадельфия и лосось сет</h1>
+                        <div class="offers__subheader">1260 грамм 36 кусочек</div>
+                     </div>
+                     <div class="cost-box">
+                        <p class="offers__cost-dlt">1599 com</p>
+                        <p class="offers__cost">599 com</p>
+                     </div>
+                     <a href="" class="offers__btn"></a>
+                  </div> -->
+               </div>
+               <div class="offers__item">
+                  <a href="#" class="offers__link">
+                     <div class="offers__img">
+                        <img src="./imgs/offers desktop.png" alt="offers">
+                     </div>
+                  </a>
+               </div>
+               <div class="offers__item">
+                  <a href="#" class="offers__link">
+                     <div class="offers__img">
+                        <img src="./imgs/offers desktop.png" alt="offers">
+                     </div>
+                  </a>
+               </div>
+               <div class="offers__item">
+                  <a href="#" class="offers__link">
+                     <div class="offers__img">
+                        <img src="./imgs/offers desktop.png" alt="offers">
+                     </div>
+                  </a>
+               </div>
+               <div class="offers__item">
+                  <a href="#" class="offers__link">
+                     <div class="offers__img">
+                        <img src="./imgs/offers desktop.png" alt="offers">
+                     </div>
+                  </a>
+               </div>
+            </div>
+         </section>
+      </main>
+   </div>
 </body>
 
 </html>
